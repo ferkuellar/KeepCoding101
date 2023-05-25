@@ -170,3 +170,36 @@ print( 5 < 3 or 4 < 1 ) # si es corecto regresa True si no es correcto regresa F
 # si el valor es True el resultado es False, si el valor es False el resultado es True.
 
 print(not 5 > 3) # si es corecto regresa True si no es correcto regresa False
+
+# operadores bit a bit
+
+# los operadores bit a bit nos sirven para comparar dos valores booleanos.
+# los operadores bit a bit nos dan como resultado un valor booleano (True o False)
+# los operadores bit a bit son: &, |, ^, ~, <<, >>.
+
+
+# OR ( | )
+
+a = 2 # en binario es 1 0
+b = 3 # en binario es 1 1
+c = a | b # es OR -> 1 1 (calquier numero que tenga un 1 es 1)
+
+print("OR: ", c) # output: 1 1 el resultado es 3
+
+# AND ( & )
+
+# 2 = 1 0
+# 3 = 1 1
+# AND -> 1 0 (calquier numero que tenga un 0 es 0)
+
+print("AND: ", a & b) # output: 1 0 el resultado es 2
+
+# XOR ( ^ )
+# (si un numero es 1 y el otro es 0 el resultado es 1, si los dos numeros son iguales el resultado es 0).
+
+e = a ^ b
+# 2 = 1 0
+# 3 = 1 1
+# XOR -> 0 1
+
+print("XOR: ", e) # output: 0 1 el resultado es 1
